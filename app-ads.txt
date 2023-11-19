@@ -1,0 +1,5 @@
+# app-ads.txt for hermitbrain.com
+# This file lists the advertising systems and other third parties that are authorized to sell inventory on hermitbrain.com.
+
+# Google AdMob
+google.com, pub-9707220974214819, DIRECT, f08c47fec0942fa0
