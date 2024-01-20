@@ -99,6 +99,11 @@
                 font-size: 0.8em;
             }
         }
+	@media screen and (min-width: 600px) and (max-width: 1023px) {
+    	    .download-button {
+	        width: 45%; /* 화면 너비가 600px 이상 1024px 미만일 때 */
+            }
+	}
 	@media screen and (min-width: 1024px) {
  	  .download-button {
           width: 15%; /* PC 전체 화면에서는 더 작게 조정 */
