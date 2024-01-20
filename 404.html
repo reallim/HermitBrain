@@ -39,7 +39,7 @@
 	    margin-top: 60px;
 	    min-height: 500px;
 	    background-image: url('background.png'); 
-	    background-size: cover;
+	    background-size: auto 100%;
 	    background-position: center;
 	    color: black;
         }
@@ -98,6 +98,16 @@
             .bottom-bar {
                 font-size: 0.8em;
             }
+		.content {
+		    padding: 80px 20px 20px 20px;
+		    margin-top: 60px;
+		    min-height: 500px;
+		    background-image: url('background.png');
+		    background-size: cover; /* 또는 '100% 100%'로 변경 */
+		    background-position: center; /* 필요에 따라 조정 */
+		    background-repeat: no-repeat; /* 또는 'repeat-y'로 변경 */
+		    color: black;
+		}
         }
 	@media screen and (min-width: 600px) and (max-width: 1023px) {
 
