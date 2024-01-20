@@ -3,22 +3,21 @@
 <head>
   <meta charset="utf-8">
   <title>리얼링크 - 내 일정을 공유하세요</title>
-    <script type="text/javascript">
-        window.onload = function() {
-            // 사용자를 리디렉션할 URL 설정
-            var targetURL = "https://play.google.com/store/apps/details?id=com.hermitbrain.RealLinkCalendar&hl=en-US&ah=6_v7SSBZJ7YexxF8Zx2ionNAxVU";
-
-            // 페이지 로드 시 해당 URL로 리디렉션
-            window.location.href = targetURL;
-        };
-    </script>
+<script src="redirect_reallink_install.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:title" content="리얼링크 - 공유캘린더" />
-<meta property="og:type" content="website" />
-<meta property="og:image" content="https://hermitbrain.com/background.png" />
-<meta property="og:url" content="" />
-<meta property="og:description" content="페이지 설명" />
+<meta property="og:title" content="캘린더에 초대하기">
+<meta property="og:description" content="캘린더에 참가하고 모두 함께 일정을 등록하면, 언제 어디서나 그룹 일정을 쉽게 파악할 수 있습니다.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://assets.timetreeapp.com/9e96e74e28d73bc41a39.png">
+<meta property="og:site_name" content="TimeTree">
+<meta property="og:url" content="https://timetreeapp.com/invitations/jIrWeWShtYfboV6RpOskETqUNtRHrB_9?locale=ko">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="de_DE">
     <style>
         body {
   	  margin: 0;
