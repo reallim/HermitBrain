@@ -44,20 +44,27 @@
 	    color: black;
         }
 	.app-installation {
-          color: darkgrey;
-          margin: 20px 0;
-        }
+	    color: #505050; 
+	    margin: 20px 0;
+	    text-align: center;
+	}
 
         .download-button {
-          background-color: #333;
-          color: white;
-          padding: 15px 30px;
-          border: none;
-          border-radius: 15px;
-          text-decoration: none;
-          font-size: 1em;
+	    display: block;
+	    margin: 0 auto; /* 중앙 정렬 */
         }
-        
+	.reallink-icon {
+	    max-width: 100px;
+	    display: block;
+	    margin: 0 auto; /* 중앙 정렬 */
+	}
+        .reallink-title {
+	    color: #303030;
+	    font-size: 24px; 
+	    font-weight: bold; 
+	    text-align: center;
+	    margin: 10px 0; /* 위아래 여백, 필요에 따라 조정 */
+	}
         .bottom-bar {
             background-color: #333;
             color: #888;
@@ -101,11 +108,14 @@
     </div>
 
     <div class="content">
-        <h1>Welcome to our Website!</h1>
+	<img src="reallink_icon.png" alt="리얼링크 아이콘" class="reallink-icon">
+	<h2 class="reallink-title">리얼 링크 - 공유 캘린더</h2>
 	<div class="app-installation">
-          리얼링크 - 공유 캘린더 앱이 설치되어 있지 않다면 아래의 버튼을 눌러 앱을 설치해 주세요
-     	 </div>
-     	 <a href="https://play.google.com/store/apps/details?id=com.hermitbrain.RealLinkCalendar&hl=en-US&ah=6_v7SSBZJ7YexxF8Zx2ionNAxVU" class="download-button">앱 다운로드</a>
+	공유 캘린더 앱이 설치되어 있지 않다면 아래의 버튼을 눌러 앱을 설치해 주세요
+	</div>
+	<a href="https://play.google.com/store/apps/details?id=com.hermitbrain.RealLinkCalendar&hl=en-US&ah=6_v7SSBZJ7YexxF8Zx2ionNAxVU">
+	<img src="btn_android_download.png" alt="앱 다운로드" class="download-button">
+	</a>
     </div>
     <div class="bottom-bar">
         2023 © Hermitbrain Co., Ltd. All rights reserved. <a href="https://www.hermitbrain.com/privacy.html" style="color: white;">Privacy Policy</a>
